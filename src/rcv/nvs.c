@@ -17,7 +17,7 @@
 *           2013/09/01 1.4  add check error of week, time jump, obs data range
 *           2014/08/26 1.10 fix bug on iode in glonass ephemeris
 *-----------------------------------------------------------------------------*/
-#include "rtklib.h"
+#include "../rtklib.h"
 
 #define NVSSYNC     0x10        /* nvs message sync code 1 */
 #define NVSENDMSG   0x03        /* nvs message sync code 1 */

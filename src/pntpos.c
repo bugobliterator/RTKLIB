@@ -314,7 +314,7 @@ static int estpos(const obsd_t *obs, int n, const double *rs, const double *dts,
     double x[NX]={0},dx[NX],Q[NX*NX],*v,*H,*var,sig;
     int i,j,k,info,stat,nv,ns;
     
-    trace(3,"estpos  : n=%d\n",n);
+    //trace(3,"estpos  : n=%d\n",n);
     
     v=mat(n+4,1); H=mat(NX,n+4); var=mat(n+4,1);
     

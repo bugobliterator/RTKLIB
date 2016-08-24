@@ -38,7 +38,7 @@
 *           2014/11/04 1.14 support message RXM-RAWX and RXM-SFRBX
 *           2015/03/20 1.15 omit time adjustment for RXM-RAWX
 *-----------------------------------------------------------------------------*/
-#include "rtklib.h"
+#include "../rtklib.h"
 
 #define UBXSYNC1    0xB5        /* ubx message sync code 1 */
 #define UBXSYNC2    0x62        /* ubx message sync code 2 */
@@ -1132,3 +1132,4 @@ extern int gen_ubx(const char *msg, unsigned char *buff)
     trace(5,"gen_ubx: buff=\n"); traceb(5,buff,n);
     return n;
 }
+

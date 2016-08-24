@@ -11,7 +11,7 @@
 *           2011/07/01  1.1  suppress warning
 *           2012/02/14  1.2  add decode of gps message (0x02)
 *-----------------------------------------------------------------------------*/
-#include "rtklib.h"
+#include "../rtklib.h"
 
 #define GW10SYNC    0x8B        /* gw10 sync code */
 

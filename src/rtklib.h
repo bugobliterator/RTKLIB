@@ -27,6 +27,7 @@
 *-----------------------------------------------------------------------------*/
 #ifndef RTKLIB_H
 #define RTKLIB_H
+#include "./config.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>

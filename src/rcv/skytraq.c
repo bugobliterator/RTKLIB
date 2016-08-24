@@ -29,7 +29,7 @@
 *           2013/03/10 1.5 change option -invcp to -INVCP
 *           2014/11/09 1.6 support glonass, qzss and beidou
 *-----------------------------------------------------------------------------*/
-#include "rtklib.h"
+#include "../rtklib.h"
 
 #define STQSYNC1    0xA0        /* skytraq binary sync code 1 */
 #define STQSYNC2    0xA1        /* skytraq binary sync code 2 */

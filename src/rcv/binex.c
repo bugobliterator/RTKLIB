@@ -13,7 +13,7 @@
 *           2013/05/18 1.2 fix bug on decoding obsflags in message 0x7f-05
 *           2014/04/27 1.3 fix bug on decoding iode for message 0x01-02
 *-----------------------------------------------------------------------------*/
-#include "rtklib.h"
+#include "../rtklib.h"
 
 static const char rcsid[]="$Id:$";
 

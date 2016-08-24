@@ -45,7 +45,7 @@
 *                           fix bug on beidou tracking codes
 *           2014/10/20 1.11 fix bug on receiver option -GL*,-RL*,-EL*
 *-----------------------------------------------------------------------------*/
-#include "rtklib.h"
+#include "../rtklib.h"
 
 static const char rcsid[]="$Id: novatel.c,v 1.2 2008/07/14 00:05:05 TTAKA Exp $";
 

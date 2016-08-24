@@ -14,7 +14,7 @@
 *           2013/11/02  1.2  modified by TTAKASU
 *           2015/01/26  1.3  fix some problems by Jens Reimann
 *-----------------------------------------------------------------------------*/
-#include "rtklib.h"
+#include "../rtklib.h"
 
 static const char rcsid[]="$Id: Septentrio SBF,v 1.1 2013/10/23 FT $";
 

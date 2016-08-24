@@ -15,7 +15,7 @@
 *           2011/05/27 1.5 fix problem with ARM compiler
 *           2013/02/23 1.6 fix memory access violation problem on arm
 *-----------------------------------------------------------------------------*/
-#include "rtklib.h"
+#include "../rtklib.h"
 
 #define SS2SOH      0x01        /* ss2 start of header */
 

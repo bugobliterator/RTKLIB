@@ -23,7 +23,7 @@
 *                          add receiver option -TTCORR
 *           2014/06/21 1.8 move decode_glostr() to rcvraw.c
 *-----------------------------------------------------------------------------*/
-#include "rtklib.h"
+#include "../rtklib.h"
 
 #define CRESSYNC    "$BIN"      /* hemis bin sync code */
 

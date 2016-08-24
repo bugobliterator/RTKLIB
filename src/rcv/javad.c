@@ -29,7 +29,7 @@
 *           2014/08/26 1.10 fix bug on decoding iode in glonass ephemeris [NE]
 *           2014/10/20 1.11 fix bug on receiver option -GL*,-RL*,-JL*
 *-----------------------------------------------------------------------------*/
-#include "rtklib.h"
+#include "../rtklib.h"
 
 static const char rcsid[]="$Id:$";
 
